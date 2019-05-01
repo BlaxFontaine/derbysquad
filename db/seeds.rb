@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+League.create([{name: "Paris roller girls", country: "France", city: "Paris"}, {name: "Bear city", country: "Germany", city: "Berlin"}])
