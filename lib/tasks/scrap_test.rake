@@ -1,6 +1,6 @@
 require 'rest-client'
 
-namespace :europe_scrap do
+namespace :test_scrap do
   desc "Scrap leagues in the region Europe from flattrackstat"
 
   task scrap: :environment do
@@ -12,8 +12,8 @@ namespace :europe_scrap do
     puts "Ready to create leagues and teams!"
 
     # There are 5 pages on which we iterate
-    [0, 1, 2, 3, 4].each do |page_number|
-      url = "http://flattrackstats.com/teams/results/taxonomy\%3A17\%2C11\%2C49?page=#{page_number}"
+    # [0, 1, 2, 3, 4].each do |page_number|
+      url = "http://flattrackstats.com/teams/results/taxonomy\%3A17\%2C11\%2C49?page=0"
       html_file = open(url).read.encode!('UTF-8', 'UTF-8', :invalid => :replace)
       html_doc = Nokogiri::HTML(html_file)
 
@@ -21,7 +21,7 @@ namespace :europe_scrap do
       html_doc.search('tr').each_with_index do |element, i|
 
         # First line of the table is a table head so we skip it
-        next if i == 0
+        next if i != 12
 
         puts "scrapping...."
         # BASIC LEAGUE ELEMENTS : NAME AND URL
@@ -32,7 +32,7 @@ namespace :europe_scrap do
         league_html_file = open(league_url).read.encode!('UTF-8', 'UTF-8', :invalid => :replace)
         league_html_doc = Nokogiri::HTML(league_html_file)
 
-        logo = league_html_doc.search('.logo img').attribute('src').value
+        p logo = league_html_doc.search('.logo img').attribute('src').value
         location = league_html_doc.search('.large').text.strip
 
         # LOCATION WITH ALGOLIA
@@ -82,6 +82,6 @@ namespace :europe_scrap do
         puts "CREATED #{League.count} LEAGUES!"
         puts "CREATED #{Team.count} TEAMS!"
       end
-    end
+    # end
   end
 end

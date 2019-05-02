@@ -1,5 +1,8 @@
-<% @leagues.each do |league| %>
-  <h2><%= league.name %></h2>
-  <p><%= league.country %></p>
-  <p><%= league.city %></p>
-<% end %>
+<div class="container">
+  <h1>Leagues of roller derby - EUROPE</h1>
+  <% @leagues.each do |league| %>
+    <img src="<%= league.logo %>" alt="">
+    <h2><%= league.name %></h2>
+    <p><%= league.city %>, <%= league.country %></p>
+  <% end %>
+</div>
