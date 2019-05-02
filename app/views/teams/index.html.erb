@@ -1,0 +1,7 @@
+<div class="container">
+  <h1>Teams of roller derby - EUROPE</h1>
+  <% @teams.each do |team| %>
+    <h2><%= team.league.name %></h2>
+    <h2><%= team.name %></h2>
+  <% end %>
+</div>

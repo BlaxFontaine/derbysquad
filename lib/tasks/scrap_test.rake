@@ -21,7 +21,7 @@ namespace :test_scrap do
       html_doc.search('tr').each_with_index do |element, i|
 
         # First line of the table is a table head so we skip it
-        next if i != 12
+        next if i != 1
 
         puts "scrapping...."
         # BASIC LEAGUE ELEMENTS : NAME AND URL
@@ -32,7 +32,7 @@ namespace :test_scrap do
         league_html_file = open(league_url).read.encode!('UTF-8', 'UTF-8', :invalid => :replace)
         league_html_doc = Nokogiri::HTML(league_html_file)
 
-        p logo = league_html_doc.search('.logo img').attribute('src').value
+        logo = league_html_doc.search('.logo img').attribute('src').value
         location = league_html_doc.search('.large').text.strip
 
         # LOCATION WITH ALGOLIA
@@ -56,11 +56,10 @@ namespace :test_scrap do
           if league.valid?
             league.save!
             puts "LEAGUE CREATED: #{league.name}"
-            lead_team_name = league_html_doc.search('.teamname').text.match(/"(.*)"/)[1]
+            p lead_team_name = league_html_doc.search('.teamname').text.match(/"(.*)"/)[1].match(/\(([^()]+)\)/)[1].capitalize
 
             # Once the league has been created we create the teams of that league
 
-            lead_team_ranking = element.children.children[0].text.delete('.')
             lead_team = Team.new(name: lead_team_name, league_id: league.id)
             if lead_team.valid?
               puts "TEAM CREATED: #{lead_team.name}"

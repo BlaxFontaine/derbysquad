@@ -32,7 +32,7 @@ namespace :europe_scrap do
         league_html_file = open(league_url).read.encode!('UTF-8', 'UTF-8', :invalid => :replace)
         league_html_doc = Nokogiri::HTML(league_html_file)
 
-        logo = league_html_doc.search('.logo img').attribute('src').value
+        logo = league_html_doc.search('.logo img').attribute('src').value.match(/\(([^()]+)\)/)[1].capitalize
         location = league_html_doc.search('.large').text.strip
 
         # LOCATION WITH ALGOLIA
