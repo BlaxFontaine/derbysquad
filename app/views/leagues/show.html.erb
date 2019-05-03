@@ -1,0 +1,9 @@
+<div class="container">
+  <img src="<%= @league.logo %>" alt="">
+  <h1><%= @league.name %></h1>
+  <p><%= @league.city %>, <%= @league.country %></p>
+  <h2>Teams : </h2>
+  <% @league.teams.each do |team| %>
+    <p><%= team.name %></p>
+  <% end %>
+</div>
