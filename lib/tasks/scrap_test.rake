@@ -21,8 +21,9 @@ namespace :test_scrap do
       html_doc.search('tr').each_with_index do |element, i|
 
         # First line of the table is a table head so we skip it
-        next if i == 0
-        next if i > 10
+
+        next if i != 21
+
 
         puts "scrapping...."
         # BASIC LEAGUE ELEMENTS : NAME AND URL
@@ -34,14 +35,18 @@ namespace :test_scrap do
         league_html_doc = Nokogiri::HTML(league_html_file)
 
         logo = league_html_doc.search('.logo img').attribute('src').value
-        location = league_html_doc.search('.large').text.strip
+        location = league_html_doc.search('.large').text
 
         # LOCATION WITH ALGOLIA
-        algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}"}.to_json, {content_type: :json, accept: :json}))
+        if location.include? "UK"
+          algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}", type: "city",  countries: ["gb"]}.to_json, {content_type: :json, accept: :json}))
+        else
+          algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}"}.to_json, {content_type: :json, accept: :json}))
+        end
         response = algolia_location["hits"]
         if algolia_location["nbHits"].positive? # If the location doesn't exist, the league won't be created
           response[0]["country"]["en"].nil? ? country = response[0]["country"]["default"] : country = response[0]["country"]["en"]
-          p response[0]["locale_names"]["en"]
+          response[0]["locale_names"]["en"]
           response[0]["locale_names"]["en"].nil? ? city = response[0]["locale_names"]["default"][0] : city = response[0]["locale_names"]["en"][0]
           latitude = response[0]["_geoloc"]["lat"]
           longitude = response[0]["_geoloc"]["lng"]

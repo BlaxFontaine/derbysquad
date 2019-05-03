@@ -33,10 +33,14 @@ namespace :europe_scrap do
         league_html_doc = Nokogiri::HTML(league_html_file)
 
         logo = league_html_doc.search('.logo img').attribute('src').value
-        location = league_html_doc.search('.large').text.strip
+        location = league_html_doc.search('.large').text
 
         # LOCATION WITH ALGOLIA
-        algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}"}.to_json, {content_type: :json, accept: :json}))
+        if location.include? "UK"
+          algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}", type: "city",  countries: ["gb"]}.to_json, {content_type: :json, accept: :json}))
+        else
+          algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}"}.to_json, {content_type: :json, accept: :json}))
+        end
         response = algolia_location["hits"]
         if algolia_location["nbHits"].positive? # If the location doesn't exist, the league won't be created
           response[0]["country"]["en"].nil? ? country = response[0]["country"]["default"] : country = response[0]["country"]["en"]
