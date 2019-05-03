@@ -5,10 +5,10 @@ namespace :test_scrap do
 
   task scrap: :environment do
     # scrap of all pages of leagues (same as travel teams)
-    # puts "Destroying all teams..."
-    # Team.destroy_all
-    # puts "Destroying all leagues..."
-    # League.destroy_all
+    puts "Destroying all teams..."
+    Team.destroy_all
+    puts "Destroying all leagues..."
+    League.destroy_all
     puts "Ready to create leagues and teams!"
 
     # There are 5 pages on which we iterate
@@ -22,7 +22,7 @@ namespace :test_scrap do
 
         # First line of the table is a table head so we skip it
 
-        next if i != 23
+        next if i == 0
 
 
         puts "scrapping...."
@@ -44,7 +44,7 @@ namespace :test_scrap do
         else
           algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}"}.to_json, {content_type: :json, accept: :json}))
         end
-        p response = algolia_location["hits"]
+        response = algolia_location["hits"]
         if algolia_location["nbHits"].positive? # If the location doesn't exist, the league won't be created
           response[0]["country"]["en"].nil? ? country = response[0]["country"]["default"] : country = response[0]["country"]["en"]
           if response[0]["city"].nil?
