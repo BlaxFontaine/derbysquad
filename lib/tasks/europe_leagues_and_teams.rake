@@ -37,6 +37,7 @@ namespace :europe_scrap do
 
         # LOCATION WITH ALGOLIA
         if location.include? "UK"
+          location = location.sub(/, UK/, "")
           algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}", type: "city",  countries: ["gb"]}.to_json, {content_type: :json, accept: :json}))
         else
           algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}"}.to_json, {content_type: :json, accept: :json}))
@@ -44,7 +45,11 @@ namespace :europe_scrap do
         response = algolia_location["hits"]
         if algolia_location["nbHits"].positive? # If the location doesn't exist, the league won't be created
           response[0]["country"]["en"].nil? ? country = response[0]["country"]["default"] : country = response[0]["country"]["en"]
-          response[0]["locale_names"]["en"].nil? ? city = response[0]["locale_names"]["default"][0] : city = response[0]["locale_names"]["en"][0]
+          if response[0]["city"].nil?
+            response[0]["locale_names"]["en"].nil? ? city = response[0]["locale_names"]["default"][0] : city = response[0]["locale_names"]["en"][0]
+          else
+            response[0]["city"]["en"].nil? ? city = response[0]["city"]["default"][0] : city = response[0]["city"]["en"][0]
+          end
           latitude = response[0]["_geoloc"]["lat"]
           longitude = response[0]["_geoloc"]["lng"]
 

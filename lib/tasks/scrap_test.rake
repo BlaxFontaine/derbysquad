@@ -5,15 +5,15 @@ namespace :test_scrap do
 
   task scrap: :environment do
     # scrap of all pages of leagues (same as travel teams)
-    puts "Destroying all teams..."
-    Team.destroy_all
-    puts "Destroying all leagues..."
-    League.destroy_all
+    # puts "Destroying all teams..."
+    # Team.destroy_all
+    # puts "Destroying all leagues..."
+    # League.destroy_all
     puts "Ready to create leagues and teams!"
 
     # There are 5 pages on which we iterate
     # [0, 1, 2, 3, 4].each do |page_number|
-      url = "http://flattrackstats.com/teams/results/taxonomy\%3A17\%2C11\%2C49?page=0"
+      url = "http://flattrackstats.com/teams/results/taxonomy\%3A17\%2C11\%2C49?page=3"
       html_file = open(url).read.encode!('UTF-8', 'UTF-8', :invalid => :replace)
       html_doc = Nokogiri::HTML(html_file)
 
@@ -22,7 +22,7 @@ namespace :test_scrap do
 
         # First line of the table is a table head so we skip it
 
-        next if i != 21
+        next if i != 23
 
 
         puts "scrapping...."
@@ -39,15 +39,19 @@ namespace :test_scrap do
 
         # LOCATION WITH ALGOLIA
         if location.include? "UK"
+          location = location.sub(/, UK/, "")
           algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}", type: "city",  countries: ["gb"]}.to_json, {content_type: :json, accept: :json}))
         else
           algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}"}.to_json, {content_type: :json, accept: :json}))
         end
-        response = algolia_location["hits"]
+        p response = algolia_location["hits"]
         if algolia_location["nbHits"].positive? # If the location doesn't exist, the league won't be created
           response[0]["country"]["en"].nil? ? country = response[0]["country"]["default"] : country = response[0]["country"]["en"]
-          response[0]["locale_names"]["en"]
-          response[0]["locale_names"]["en"].nil? ? city = response[0]["locale_names"]["default"][0] : city = response[0]["locale_names"]["en"][0]
+          if response[0]["city"].nil?
+            response[0]["locale_names"]["en"].nil? ? city = response[0]["locale_names"]["default"][0] : city = response[0]["locale_names"]["en"][0]
+          else
+            response[0]["city"]["en"].nil? ? city = response[0]["city"]["default"][0] : city = response[0]["city"]["en"][0]
+          end
           latitude = response[0]["_geoloc"]["lat"]
           longitude = response[0]["_geoloc"]["lng"]
 
