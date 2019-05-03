@@ -21,7 +21,8 @@ namespace :test_scrap do
       html_doc.search('tr').each_with_index do |element, i|
 
         # First line of the table is a table head so we skip it
-        next if i != 1
+        next if i == 0
+        next if i > 10
 
         puts "scrapping...."
         # BASIC LEAGUE ELEMENTS : NAME AND URL
@@ -40,7 +41,8 @@ namespace :test_scrap do
         response = algolia_location["hits"]
         if algolia_location["nbHits"].positive? # If the location doesn't exist, the league won't be created
           response[0]["country"]["en"].nil? ? country = response[0]["country"]["default"] : country = response[0]["country"]["en"]
-          response[0]["locale_names"]["en"].nil? ? city = response[0]["locale_names"]["default"][0] : city = response[0]["locale_names"]["en"]
+          p response[0]["locale_names"]["en"]
+          response[0]["locale_names"]["en"].nil? ? city = response[0]["locale_names"]["default"][0] : city = response[0]["locale_names"]["en"][0]
           latitude = response[0]["_geoloc"]["lat"]
           longitude = response[0]["_geoloc"]["lng"]
 
@@ -56,8 +58,12 @@ namespace :test_scrap do
           if league.valid?
             league.save!
             puts "LEAGUE CREATED: #{league.name}"
-            p lead_team_name = league_html_doc.search('.teamname').text.match(/"(.*)"/)[1].match(/\(([^()]+)\)/)[1].capitalize
-
+            var_inter = league_html_doc.search('.teamname').text.match(/"(.*)"/)[1]
+            if var_inter.match(/\(([^()]+)\)/).nil?
+              lead_team_name = var_inter
+            else
+              lead_team_name = var_inter.match(/\(([^()]+)\)/)[1].capitalize
+            end
             # Once the league has been created we create the teams of that league
 
             lead_team = Team.new(name: lead_team_name, league_id: league.id)

@@ -32,7 +32,7 @@ namespace :europe_scrap do
         league_html_file = open(league_url).read.encode!('UTF-8', 'UTF-8', :invalid => :replace)
         league_html_doc = Nokogiri::HTML(league_html_file)
 
-        logo = league_html_doc.search('.logo img').attribute('src').value.match(/\(([^()]+)\)/)[1].capitalize
+        logo = league_html_doc.search('.logo img').attribute('src').value
         location = league_html_doc.search('.large').text.strip
 
         # LOCATION WITH ALGOLIA
@@ -40,7 +40,7 @@ namespace :europe_scrap do
         response = algolia_location["hits"]
         if algolia_location["nbHits"].positive? # If the location doesn't exist, the league won't be created
           response[0]["country"]["en"].nil? ? country = response[0]["country"]["default"] : country = response[0]["country"]["en"]
-          response[0]["locale_names"]["en"].nil? ? city = response[0]["locale_names"]["default"][0] : city = response[0]["locale_names"]["en"]
+          response[0]["locale_names"]["en"].nil? ? city = response[0]["locale_names"]["default"][0] : city = response[0]["locale_names"]["en"][0]
           latitude = response[0]["_geoloc"]["lat"]
           longitude = response[0]["_geoloc"]["lng"]
 
@@ -56,8 +56,12 @@ namespace :europe_scrap do
           if league.valid?
             league.save!
             puts "LEAGUE CREATED: #{league.name}"
-            lead_team_name = league_html_doc.search('.teamname').text.match(/"(.*)"/)[1]
-
+            var_inter = league_html_doc.search('.teamname').text.match(/"(.*)"/)[1]
+            if var_inter.match(/\(([^()]+)\)/).nil?
+              lead_team_name = var_inter
+            else
+              lead_team_name = var_inter.match(/\(([^()]+)\)/)[1].capitalize
+            end
             # Once the league has been created we create the teams of that league
 
             lead_team_ranking = element.children.children[0].text.delete('.')
