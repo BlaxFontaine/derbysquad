@@ -13,7 +13,7 @@ namespace :test_scrap do
 
     # There are 5 pages on which we iterate
     # [0, 1, 2, 3, 4].each do |page_number|
-      url = "http://flattrackstats.com/teams/results/taxonomy\%3A17\%2C11\%2C49?page=3"
+      url = "http://flattrackstats.com/teams/results/taxonomy\%3A17\%2C11\%2C49?page=0"
       html_file = open(url).read.encode!('UTF-8', 'UTF-8', :invalid => :replace)
       html_doc = Nokogiri::HTML(html_file)
 
@@ -21,15 +21,14 @@ namespace :test_scrap do
       html_doc.search('tr').each_with_index do |element, i|
 
         # First line of the table is a table head so we skip it
-
         next if i == 0
-
+        next if i > 20
 
         puts "scrapping...."
         # BASIC LEAGUE ELEMENTS : NAME AND URL
         league_name = element.search('.views-field-title a').text.strip
         path = element.search('.views-field-title a').attribute('href')
-        lead_team_number = path.value.match(/\d+/)[0]
+        lead_fts_code = path.value.match(/\d+/)[0]
         league_url = "http://flattrackstats.com#{path}"
         league_html_file = open(league_url).read.encode!('UTF-8', 'UTF-8', :invalid => :replace)
         league_html_doc = Nokogiri::HTML(league_html_file)
@@ -75,15 +74,17 @@ namespace :test_scrap do
             end
             # Once the league has been created we create the teams of that league
 
-            lead_team = Team.new(name: lead_team_name, league_id: league.id)
+
+            lead_team = Team.new(name: lead_team_name, league_id: league.id, fts_code: lead_fts_code)
             if lead_team.valid?
               puts "TEAM CREATED: #{lead_team.name}"
               lead_team.save!
-              league_html_doc.search('.relatedteams a').each do |element|
+              league_html_doc.search('.relatedteams a').each do |e|
                 puts "scrapping...."
-                unless element.attributes["class"].value == "disbanded"
-                  secondary_team_name = element.text.strip
-                  secondary_team = Team.new(name: secondary_team_name, league_id: league.id)
+                unless e.attributes["class"].value == "disbanded"
+                  secondary_team_name = e.text.strip
+                  secondary_fts_code = e.attribute('href').value.match(/\d+/)[0]
+                  secondary_team = Team.new(name: secondary_team_name, league_id: league.id, fts_code: secondary_fts_code)
                   if secondary_team.valid?
                     secondary_team.save!
                     puts "TEAM CREATED: #{secondary_team.name}"
@@ -95,7 +96,7 @@ namespace :test_scrap do
         end
         puts "CREATED #{League.count} LEAGUES!"
         puts "CREATED #{Team.count} TEAMS!"
-      end
-    # end
+      # end
+    end
   end
 end

@@ -27,7 +27,7 @@ namespace :europe_scrap do
         # BASIC LEAGUE ELEMENTS : NAME AND URL
         league_name = element.search('.views-field-title a').text.strip
         path = element.search('.views-field-title a').attribute('href')
-        lead_team_number = path.value.match(/\d+/)[0]
+        lead_fts_code = path.value.match(/\d+/)[0]
         league_url = "http://flattrackstats.com#{path}"
         league_html_file = open(league_url).read.encode!('UTF-8', 'UTF-8', :invalid => :replace)
         league_html_doc = Nokogiri::HTML(league_html_file)
@@ -73,8 +73,8 @@ namespace :europe_scrap do
             end
             # Once the league has been created we create the teams of that league
 
-            lead_team_ranking = element.children.children[0].text.delete('.')
-            lead_team = Team.new(name: lead_team_name, league_id: league.id)
+
+            lead_team = Team.new(name: lead_team_name, league_id: league.id, fts_code: lead_fts_code)
             if lead_team.valid?
               puts "TEAM CREATED: #{lead_team.name}"
               lead_team.save!
@@ -82,7 +82,8 @@ namespace :europe_scrap do
                 puts "scrapping...."
                 unless element.attributes["class"].value == "disbanded"
                   secondary_team_name = element.text.strip
-                  secondary_team = Team.new(name: secondary_team_name, league_id: league.id)
+                  secondary_fts_code = element.attribute('href').value.match(/\d+/)[0]
+                  secondary_team = Team.new(name: secondary_team_name, league_id: league.id, fts_code: secondary_fts_code)
                   if secondary_team.valid?
                     secondary_team.save!
                     puts "TEAM CREATED: #{secondary_team.name}"
