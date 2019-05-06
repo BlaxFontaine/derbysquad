@@ -21,8 +21,7 @@ namespace :test_scrap do
       html_doc.search('tr').each_with_index do |element, i|
 
         # First line of the table is a table head so we skip it
-        next if i == 0
-        next if i > 20
+        next if i != 12
 
         puts "scrapping...."
         # BASIC LEAGUE ELEMENTS : NAME AND URL
@@ -55,10 +54,14 @@ namespace :test_scrap do
           longitude = response[0]["_geoloc"]["lng"]
 
           # From there, we create a new league
+          logo_name = league_name.gsub(" ", "_").downcase
+          data = RestClient.get(logo).body
+          path = "app/assets/images/#{logo_name}.jpg"
+          File.write(path, data, mode: "wb")
           league = League.new(name: league_name,
                               city: city,
                               country: country,
-                              logo: logo,
+                              logo: path,
                               lat: latitude,
                               long: longitude,
                               region: "Europe")
