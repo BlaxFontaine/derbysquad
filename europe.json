@@ -1,0 +1,24 @@
+{
+  "leagues": [
+    {
+      "league_name": "Amsterdam Roller Derby",
+      "country": "The Netherlands",
+      "city": "Amsterdam",
+      "latitude": 52.3728,
+      "longitude": 4.8936,
+      "region": "Europe",
+      "teams": [
+        {
+          "team_name": "All-stars",
+          "ranking": null,
+          "fts_code": 7732
+        },
+        {
+          "team_name": "ARD: Battle Stars",
+          "ranking": null,
+          "fts_code": 18137
+        }
+      ]
+    }
+  ]
+}

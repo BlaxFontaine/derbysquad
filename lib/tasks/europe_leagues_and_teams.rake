@@ -52,12 +52,15 @@ namespace :europe_scrap do
           end
           latitude = response[0]["_geoloc"]["lat"]
           longitude = response[0]["_geoloc"]["lng"]
-
+          logo_name = league_name.gsub(" ", "_").downcase
+          data = RestClient.get(logo).body
+          path = "app/assets/images/#{logo_name}.jpg"
+          File.write(path, data, mode: "wb")
           # From there, we create a new league
           league = League.new(name: league_name,
                               city: city,
                               country: country,
-                              logo: logo,
+                              logo: path,
                               lat: latitude,
                               long: longitude,
                               region: "Europe")
