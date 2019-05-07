@@ -5,11 +5,11 @@ namespace :europe_scrap do
 
   task scrap: :environment do
     # scrap of all pages of leagues (same as travel teams)
-    puts "Destroying all teams..."
-    Team.destroy_all
-    puts "Destroying all leagues..."
-    League.destroy_all
-    puts "Ready to create leagues and teams!"
+    # puts "Destroying all teams..."
+    # Team.destroy_all
+    # puts "Destroying all leagues..."
+    # League.destroy_all
+    # puts "Ready to create leagues and teams!"
 
     # There are 5 pages on which we iterate
     [0, 1, 2, 3, 4].each do |page_number|
@@ -54,7 +54,7 @@ namespace :europe_scrap do
           longitude = response[0]["_geoloc"]["lng"]
           logo_name = league_name.gsub(" ", "_").downcase
           data = RestClient.get(logo).body
-          path = "app/assets/images/#{logo_name}.jpg"
+          path = "#{logo_name}.jpg"
           File.write(path, data, mode: "wb")
           # From there, we create a new league
           league = League.new(name: league_name,

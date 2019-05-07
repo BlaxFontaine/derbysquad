@@ -11,6 +11,7 @@ namespace :europe_save do
         output_teams << {
           team_name: team.name,
           ranking: team.ranking,
+          ranking_date: team.ranking_date,
           fts_code: team.fts_code
         }
       end
