@@ -1,6 +1,12 @@
 class LeaguesController < ApplicationController
   def index
     @leagues = League.all
+    @markers = @leagues.map do |league|
+      {
+        lat: league.lat,
+        lng: league.long
+      }
+    end
   end
 
   def show

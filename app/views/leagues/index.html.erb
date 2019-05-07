@@ -1,5 +1,12 @@
 <div class="container">
   <h1>Leagues of roller derby - EUROPE</h1>
+  <div
+    id="map"
+    style="width: 100%;
+    height: 600px;"
+    data-markers="<%= @markers.to_json %>"
+    data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
+  ></div>
   <% @leagues.each do |league| %>
     <%= image_tag league.logo %>
     <h2><%= link_to league.name, league_path(league.id) %></h2>
