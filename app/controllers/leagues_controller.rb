@@ -4,7 +4,8 @@ class LeaguesController < ApplicationController
     @markers = @leagues.map do |league|
       {
         lat: league.lat,
-        lng: league.long
+        lng: league.long,
+        infoWindow: render_to_string(partial: "infowindow", locals: { league: league })
       }
     end
   end
