@@ -2685,22 +2685,6 @@
       ]
     },
     {
-      "league_name": "Jersey Roller Derby",
-      "country": "United States of America",
-      "city": "Jersey",
-      "latitude": 33.7157,
-      "longitude": -83.7988,
-      "region": "Europe",
-      "teams": [
-        {
-          "team_name": "All-stars",
-          "ranking": null,
-          "ranking_date": null,
-          "fts_code": 36841
-        }
-      ]
-    },
-    {
       "league_name": "Joensuu Roller Derby",
       "country": "Finland",
       "city": "Joensuu",
@@ -3201,22 +3185,6 @@
           "ranking": 1696,
           "ranking_date": "2019-05-07",
           "fts_code": 98074
-        }
-      ]
-    },
-    {
-      "league_name": "Les Gasconnes",
-      "country": "United States of America",
-      "city": "Aloha",
-      "latitude": 45.5089,
-      "longitude": -122.864,
-      "region": "Europe",
-      "teams": [
-        {
-          "team_name": "All-stars",
-          "ranking": null,
-          "ranking_date": null,
-          "fts_code": 62781
         }
       ]
     },
@@ -5413,22 +5381,6 @@
       ]
     },
     {
-      "league_name": "Roll'in Tarn Roller Derby",
-      "country": "South Africa",
-      "city": "Kimberley",
-      "latitude": -28.7306,
-      "longitude": 24.7555,
-      "region": "Europe",
-      "teams": [
-        {
-          "team_name": "Bloody Patchol'",
-          "ranking": null,
-          "ranking_date": null,
-          "fts_code": 72259
-        }
-      ]
-    },
-    {
       "league_name": "Roll-On Derby",
       "country": "Finland",
       "city": "Rovaniemi",
@@ -5824,10 +5776,10 @@
     },
     {
       "league_name": "Roller Derby Club Bastiacciu",
-      "country": "United States of America",
-      "city": "Corsica",
-      "latitude": 43.4253,
-      "longitude": -98.4073,
+      "country": "France",
+      "city": "Bastia",
+      "latitude": 42.70278,
+      "longitude": 9.45,
       "region": "Europe",
       "teams": [
         {
@@ -6686,10 +6638,10 @@
     },
     {
       "league_name": "Roller Derby Porto",
-      "country": "United States of America",
-      "city": "San José",
-      "latitude": 37.2392,
-      "longitude": -121.877,
+      "country": "Portugal",
+      "city": "Porto",
+      "latitude": 41.14961,
+      "longitude": -8.61099,
       "region": "Europe",
       "teams": [
         {
