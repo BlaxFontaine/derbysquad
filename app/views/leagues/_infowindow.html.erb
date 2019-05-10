@@ -1,3 +1,7 @@
 <div class="mapboxgl-popup">
-  <h1 class="mapboxgl-popup-content"><%= league.name %></h1>
+  <div class="mapboxgl-popup-content">
+    <p><%= link_to league.name, league_path(league.id) %></p>
+    <p><%= league.city %>, <%= league.country %></p>
+    <%= image_tag league.logo %>
+  </div>
 </div>
