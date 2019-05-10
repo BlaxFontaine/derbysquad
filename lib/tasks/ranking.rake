@@ -14,6 +14,7 @@ namespace :ranking do
 
         ranking = element.children.children[0].text.delete('.').to_i
         team.update(ranking: ranking, ranking_date: Date.today)
+        puts "#{team.league.name} - #{team.name} updated!"
       end
     end
   end

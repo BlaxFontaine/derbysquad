@@ -3,7 +3,7 @@ require 'json'
 namespace :europe_save do
   desc "Save Europe leagues and teams into a json"
   task json: :environment do
-    leagues = League.all
+    leagues = League.where(region: "Europe").all
     output_leagues = { leagues: [] }
     leagues.each do |league|
       output_teams = []

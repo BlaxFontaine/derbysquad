@@ -4,6 +4,6 @@
   <p><%= @league.city %>, <%= @league.country %></p>
   <h2>Teams : </h2>
   <% @league.teams.each do |team| %>
-    <p><%= team.name %> - Ranking: <%= team.ranking %></p>
+    <p><%= team.name %> - Ranking (last update <%= team.ranking_date.strftime('%a %d %b %Y') %>): <%= team.ranking %></p>
   <% end %>
 </div>
