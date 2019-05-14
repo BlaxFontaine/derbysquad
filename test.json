@@ -1,0 +1,20 @@
+{
+  "leagues": [
+    {
+      "name": "Le test",
+      "country": "France",
+      "city": "Paris",
+      "lat": 44.0124,
+      "long": 4.41976,
+      "region": "Europe",
+      "teams": [
+        {
+          "name": "Minus",
+          "ranking": 6000,
+          "ranking_date": "2019-05-07",
+          "fts_code": "00000"
+        }
+      ]
+    }
+  ]
+}

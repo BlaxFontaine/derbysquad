@@ -23,6 +23,7 @@ namespace :europe_save do
         latitude: league.lat,
         longitude: league.long,
         region: league.region,
+        logo: league.logo,
         teams: output_teams
       }
     end
