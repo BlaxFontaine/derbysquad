@@ -7,28 +7,32 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'json'
 
-test_json = 'test.json'
+League.destroy_all
 
-serialized_input = File.read(test_json)
-input = JSON.parse(serialized_input)
-input_leagues = input['leagues']
-# p input_leagues
-input_leagues.each do |league|
-  new_league = {}
-  new_league[:name] = league['name']
-  new_league[:country] = league['country']
-  new_league[:city] = league['city']
-  new_league[:lat] = league['lat']
-  new_league[:long] = league['long']
-  new_league[:region] = league['region']
-  new_league[:logo] = "2x4_roller_derby.jpg"
-  League.create!(new_league)
-  league['teams'].each do |team|
-    team[:name] = team['name']
-    team[:ranking] = team['ranking']
-    team[:ranking_date] = team['ranking_date']
-    team[:fts_code] = team['fts_code']
-    team[:league] = League.last
-    Team.create!(team)
+jsons = ['europe.json', 'latin_america.json']
+
+jsons.each do |json|
+  serialized_input = File.read(json)
+  input = JSON.parse(serialized_input)
+  input_leagues = input['leagues']
+  # p input_leagues
+  input_leagues.each do |league|
+    new_league = {}
+    new_league[:name] = league['name']
+    new_league[:country] = league['country']
+    new_league[:city] = league['city']
+    new_league[:lat] = league['lat']
+    new_league[:long] = league['long']
+    new_league[:region] = league['region']
+    new_league[:logo] = "2x4_roller_derby.jpg"
+    League.create!(new_league)
+    league['teams'].each do |team|
+      team[:name] = team['name']
+      team[:ranking] = team['ranking']
+      team[:ranking_date] = team['ranking_date']
+      team[:fts_code] = team['fts_code']
+      team[:league] = League.last
+      Team.create!(team)
+    end
   end
 end

@@ -1,6 +1,6 @@
 require 'json'
 
-namespace :europe_save do
+namespace :latina_save do
   desc "Save Latin America leagues and teams into a json"
   task json: :environment do
     leagues = League.where(region: "Latin America").all
