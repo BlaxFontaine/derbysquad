@@ -9,7 +9,7 @@ namespace :latina_save do
       output_teams = []
       league.teams.each do |team|
         output_teams << {
-          team_name: team.name,
+          team: team.name,
           ranking: team.ranking,
           ranking_date: team.ranking_date,
           fts_code: team.fts_code
@@ -17,11 +17,11 @@ namespace :latina_save do
       end
 
       output_leagues[:leagues] << {
-        league_name: league.name,
+        league: league.name,
         country: league.country,
         city: league.city,
-        latitude: league.lat,
-        longitude: league.long,
+        lat: league.lat,
+        long: league.long,
         region: league.region,
         logo: league.logo,
         teams: output_teams
