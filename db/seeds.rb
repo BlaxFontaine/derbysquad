@@ -27,12 +27,13 @@ jsons.each do |json|
     new_league[:logo] = "2x4_roller_derby.jpg"
     League.create!(new_league)
     league['teams'].each do |team|
-      team[:name] = team['name']
-      team[:ranking] = team['ranking']
-      team[:ranking_date] = team['ranking_date']
-      team[:fts_code] = team['fts_code']
-      team[:league] = League.last
-      Team.create!(team)
+      new_team = {}
+      new_team[:name] = team['name']
+      new_team[:ranking] = team['ranking']
+      new_team[:ranking_date] = team['ranking_date']
+      new_team[:fts_code] = team['fts_code']
+      new_team[:league] = League.last
+      Team.create!(new_team)
     end
   end
 end
