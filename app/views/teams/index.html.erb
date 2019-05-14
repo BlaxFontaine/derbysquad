@@ -1,7 +1,16 @@
 <div class="container">
-  <h1>Teams of roller derby - EUROPE</h1>
+  <h1>Teams of roller derby</h1>
   <% @teams.each do |team| %>
-    <h2><%= team.league.name %></h2>
-    <h2><%= team.name %></h2>
+    <div class="card-product">
+      <%= image_tag team.league.logo, class: "logo" %>
+      <div class="card-product-infos">
+        <h2><%= team.league.name %></h2>
+        <h3><%= team.name %></h3>
+        <p><%= team.league.city %>, <%= team.league.country %></p>
+      </div>
+      <div class="card-ranking">
+        <p><%= team.ranking %></p>
+      </div>
+    </div>
   <% end %>
 </div>
