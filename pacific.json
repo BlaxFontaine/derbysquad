@@ -1,0 +1,141 @@
+{
+  "leagues": [
+    {
+      "name": "Kamikaze Badass Roller Derby Japan",
+      "country": "Japan",
+      "city": "Yokohama",
+      "lat": 35.445,
+      "long": 139.637,
+      "region": "Pacific",
+      "logo": "kamikaze_badass_roller_derby_japan.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 76301
+        }
+      ]
+    },
+    {
+      "name": "Killa Geishas of Misawa",
+      "country": "Japan",
+      "city": "Misawa",
+      "lat": 40.6829,
+      "long": 141.369,
+      "region": "Pacific",
+      "logo": "killa_geishas_of_misawa.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 52313
+        }
+      ]
+    },
+    {
+      "name": "Okinawa Roller Derby",
+      "country": "Japan",
+      "city": "Okinawa",
+      "lat": 26.3384,
+      "long": 127.806,
+      "region": "Pacific",
+      "logo": "okinawa_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "ORD: Devil Dog Derby Dames",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 16732
+        },
+        {
+          "name": "ORD: Kokeshi Roller Dolls",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 91712
+        },
+        {
+          "name": "The Undertow",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 8126
+        }
+      ]
+    },
+    {
+      "name": "Republic of Korea Roller Derby",
+      "country": "South Korea",
+      "city": "Seoul",
+      "lat": 37.5667,
+      "long": 126.978,
+      "region": "Pacific",
+      "logo": "republic_of_korea_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 30074
+        }
+      ]
+    },
+    {
+      "name": "Shanghai Roller Derby",
+      "country": "People's Republic of China",
+      "city": "Shanghai",
+      "lat": 31.2253,
+      "long": 121.489,
+      "region": "Pacific",
+      "logo": "shanghai_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Shang-High Rollers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 93678
+        }
+      ]
+    },
+    {
+      "name": "Team Indigenous Dreaming",
+      "country": "Australia",
+      "city": "Canberra",
+      "lat": -35.2976,
+      "long": 149.101,
+      "region": "Pacific",
+      "logo": "team_indigenous_dreaming.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 112351
+        }
+      ]
+    },
+    {
+      "name": "Tokyo Roller Girls",
+      "country": "Japan",
+      "city": "Tokyo",
+      "lat": 35.6828,
+      "long": 139.759,
+      "region": "Pacific",
+      "logo": "tokyo_roller_girls.jpg",
+      "teams": [
+        {
+          "name": "TRG: Yokosuka Sushi Rollers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 23399
+        },
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 20991
+        }
+      ]
+    }
+  ]
+}

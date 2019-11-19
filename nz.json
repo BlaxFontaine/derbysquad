@@ -1,0 +1,577 @@
+{
+  "leagues": [
+    {
+      "name": "Bay City Rollers",
+      "country": "New Zealand",
+      "city": "Waipukurau",
+      "lat": -39.991,
+      "long": 176.561,
+      "region": "NZ",
+      "logo": "bay_city_rollers.jpg",
+      "teams": [
+        {
+          "name": "BCR: Twisted Sisters",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 68613
+        },
+        {
+          "name": "Iron Maidens",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18769
+        }
+      ]
+    },
+    {
+      "name": "Bin City Roller Derby",
+      "country": "New Zealand",
+      "city": "Gisborne",
+      "lat": -38.6613,
+      "long": 178.021,
+      "region": "NZ",
+      "logo": "bin_city_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18778
+        }
+      ]
+    },
+    {
+      "name": "BoomTown Brawlettes Roller Derby League",
+      "country": "New Zealand",
+      "city": "Blenheim",
+      "lat": -41.5156,
+      "long": 173.96,
+      "region": "NZ",
+      "logo": "boomtown_brawlettes_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18773
+        }
+      ]
+    },
+    {
+      "name": "Dead End Derby",
+      "country": "New Zealand",
+      "city": "Christchurch",
+      "lat": -43.531,
+      "long": 172.637,
+      "region": "NZ",
+      "logo": "dead_end_derby.jpg",
+      "teams": [
+        {
+          "name": "DED: Dead Seas",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 101829
+        },
+        {
+          "name": "DED: Living Dead Rollers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24497
+        },
+        {
+          "name": "Death Stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18766
+        }
+      ]
+    },
+    {
+      "name": "Dunedin Derby",
+      "country": "New Zealand",
+      "city": "Dunedin",
+      "lat": -45.8739,
+      "long": 170.503,
+      "region": "NZ",
+      "logo": "dunedin_derby.jpg",
+      "teams": [
+        {
+          "name": "DD: Bonnie Brawlers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 38844
+        },
+        {
+          "name": "Gallow Lasses",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18765
+        }
+      ]
+    },
+    {
+      "name": "Hellmilton Roller Ghouls",
+      "country": "New Zealand",
+      "city": "Hamilton",
+      "lat": -37.7876,
+      "long": 175.281,
+      "region": "NZ",
+      "logo": "hellmilton_roller_ghouls.jpg",
+      "teams": [
+        {
+          "name": "HRG: Hell's Belles",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 87055
+        },
+        {
+          "name": "Raggedy Angst",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18770
+        }
+      ]
+    },
+    {
+      "name": "K-Town Derby Dolls",
+      "country": "New Zealand",
+      "city": "Kawerau",
+      "lat": -38.0857,
+      "long": 176.703,
+      "region": "NZ",
+      "logo": "k-town_derby_dolls.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18768
+        }
+      ]
+    },
+    {
+      "name": "Kapiti Coast Derby Collective",
+      "country": "New Zealand",
+      "city": "Kapiti Coast District",
+      "lat": -40.862,
+      "long": 175.177,
+      "region": "NZ",
+      "logo": "kapiti_coast_derby_collective.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 68628
+        }
+      ]
+    },
+    {
+      "name": "Moana Roller Derby",
+      "country": "New Zealand",
+      "city": "Tauranga",
+      "lat": -37.6859,
+      "long": 176.168,
+      "region": "NZ",
+      "logo": "moana_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "MRD: Paua Rangers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 87033
+        },
+        {
+          "name": "Salty Rollers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 68615
+        }
+      ]
+    },
+    {
+      "name": "Mount Militia Derby Crew",
+      "country": "New Zealand",
+      "city": "Mount Maunganui",
+      "lat": -37.638,
+      "long": 176.184,
+      "region": "NZ",
+      "logo": "mount_militia_derby_crew.jpg",
+      "teams": [
+        {
+          "name": "Dangerous Curves",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18775
+        }
+      ]
+    },
+    {
+      "name": "Nelson Bays Roller Derby",
+      "country": "New Zealand",
+      "city": "Nelson",
+      "lat": -41.2711,
+      "long": 173.284,
+      "region": "NZ",
+      "logo": "nelson_bays_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "NBRD: Shipwreckers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 103897
+        },
+        {
+          "name": "Sirens of Smash",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18774
+        }
+      ]
+    },
+    {
+      "name": "Northland Nightmares Roller Derby",
+      "country": "New Zealand",
+      "city": "Whangarei",
+      "lat": -35.7284,
+      "long": 174.321,
+      "region": "NZ",
+      "logo": "northland_nightmares_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "NN: Night Furyz",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 104686
+        },
+        {
+          "name": "Hells Wives",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18771
+        }
+      ]
+    },
+    {
+      "name": "Otautahi Roller Derby League",
+      "country": "New Zealand",
+      "city": "Christchurch",
+      "lat": -43.531,
+      "long": 172.637,
+      "region": "NZ",
+      "logo": "otautahi_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "All Stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18777
+        }
+      ]
+    },
+    {
+      "name": "Peowhairangi Roller Derby League",
+      "country": "New Zealand",
+      "city": "Awanui",
+      "lat": -35.0477,
+      "long": 173.258,
+      "region": "NZ",
+      "logo": "peowhairangi_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "Wildlings",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 87065
+        }
+      ]
+    },
+    {
+      "name": "Pirate City Rollers",
+      "country": "New Zealand",
+      "city": "Auckland",
+      "lat": -36.8535,
+      "long": 174.766,
+      "region": "NZ",
+      "logo": "pirate_city_rollers.jpg",
+      "teams": [
+        {
+          "name": "PCR: Broadside Brawlers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 55620
+        },
+        {
+          "name": "All Scars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 8125
+        }
+      ]
+    },
+    {
+      "name": "Queenstown Roller Derby",
+      "country": "New Zealand",
+      "city": "Queenstown",
+      "lat": -45.0317,
+      "long": 168.661,
+      "region": "NZ",
+      "logo": "queenstown_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 103154
+        }
+      ]
+    },
+    {
+      "name": "Remutaka Roller Derby",
+      "country": "New Zealand",
+      "city": "Wellington",
+      "lat": -41.2866,
+      "long": 174.776,
+      "region": "NZ",
+      "logo": "remutaka_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "RRD: Raptors",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 110999
+        },
+        {
+          "name": "Rebels",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 99548
+        }
+      ]
+    },
+    {
+      "name": "Richter City Roller Derby",
+      "country": "New Zealand",
+      "city": "Wellington",
+      "lat": -41.2887,
+      "long": 174.777,
+      "region": "NZ",
+      "logo": "richter_city_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Violent Femmes",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 68627
+        },
+        {
+          "name": "Skate Tartare",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 49991
+        },
+        {
+          "name": "Wellington Sweet Meat",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 41531
+        },
+        {
+          "name": "RCRD: Convicts",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24514
+        },
+        {
+          "name": "All Stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 16740
+        }
+      ]
+    },
+    {
+      "name": "River City Rollers",
+      "country": "New Zealand",
+      "city": "Whanganui",
+      "lat": -39.9347,
+      "long": 175.054,
+      "region": "NZ",
+      "logo": "river_city_rollers.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18767
+        }
+      ]
+    },
+    {
+      "name": "Sulphur City Steam Rollers",
+      "country": "New Zealand",
+      "city": "Rotorua District",
+      "lat": -38.223,
+      "long": 176.326,
+      "region": "NZ",
+      "logo": "sulphur_city_steam_rollers.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 33001
+        }
+      ]
+    },
+    {
+      "name": "Swamp City Roller Derby",
+      "country": "New Zealand",
+      "city": "Palmerston North",
+      "lat": -40.3563,
+      "long": 175.611,
+      "region": "NZ",
+      "logo": "swamp_city_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Swamp Mix Up",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 65962
+        },
+        {
+          "name": "SCRD: Honourable Mareikura",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 105611
+        },
+        {
+          "name": "SCRD: Badda Bings",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 68614
+        },
+        {
+          "name": "All Stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 15858
+        }
+      ]
+    },
+    {
+      "name": "Taranaki Roller Corps",
+      "country": "New Zealand",
+      "city": "New Plymouth District",
+      "lat": -39.0504,
+      "long": 174.375,
+      "region": "NZ",
+      "logo": "taranaki_roller_corps.jpg",
+      "teams": [
+        {
+          "name": "Taranaki Mix Up",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 65963
+        },
+        {
+          "name": "Rumblebees",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18764
+        }
+      ]
+    },
+    {
+      "name": "Taupo Roller Derby League",
+      "country": "New Zealand",
+      "city": "Taupo",
+      "lat": -38.6875,
+      "long": 176.075,
+      "region": "NZ",
+      "logo": "taupo_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "Huka Dolls",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 91981
+        }
+      ]
+    },
+    {
+      "name": "Timaru Roller Derby",
+      "country": "New Zealand",
+      "city": "Timaru District",
+      "lat": -44.0286,
+      "long": 171.086,
+      "region": "NZ",
+      "logo": "timaru_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Dames",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 87063
+        }
+      ]
+    },
+    {
+      "name": "West Coast Roller Derby",
+      "country": "New Zealand",
+      "city": "Greymouth",
+      "lat": -42.4499,
+      "long": 171.208,
+      "region": "NZ",
+      "logo": "west_coast_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Bombers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 68629
+        }
+      ]
+    },
+    {
+      "name": "Whakatane Roller Derby League",
+      "country": "New Zealand",
+      "city": "Whakatāne",
+      "lat": -37.951,
+      "long": 176.995,
+      "region": "NZ",
+      "logo": "whakatane_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "WRDL: Black Pearls",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 92444
+        },
+        {
+          "name": "Brawl Stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 32972
+        }
+      ]
+    },
+    {
+      "name": "Whenua Fatales Roller Derby League",
+      "country": "New Zealand",
+      "city": "Levin",
+      "lat": -40.6218,
+      "long": 175.287,
+      "region": "NZ",
+      "logo": "whenua_fatales_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18772
+        }
+      ]
+    }
+  ]
+}

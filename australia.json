@@ -1,0 +1,1681 @@
+{
+  "leagues": [
+    {
+      "name": "Airlie Beach Trash Bags",
+      "country": "Australia",
+      "city": "Airlie Beach",
+      "lat": -20.2695,
+      "long": 148.718,
+      "region": "Australia",
+      "logo": "airlie_beach_trash_bags.jpg",
+      "teams": [
+        {
+          "name": "Trash Bags",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 45296
+        }
+      ]
+    },
+    {
+      "name": "Albany Roller Derby League",
+      "country": "Australia",
+      "city": "Albany",
+      "lat": -35.0248,
+      "long": 117.884,
+      "region": "Australia",
+      "logo": "albany_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "Great Southern Breakers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 85570
+        }
+      ]
+    },
+    {
+      "name": "Armidale Roller Derby",
+      "country": "Australia",
+      "city": "Armidale",
+      "lat": -30.5145,
+      "long": 151.666,
+      "region": "Australia",
+      "logo": "armidale_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "NED Kennedys",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 41328
+        },
+        {
+          "name": "Armidale High Rollers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 41326
+        }
+      ]
+    },
+    {
+      "name": "Bay Rollers Roller Derby",
+      "country": "Australia",
+      "city": "Byron Bay",
+      "lat": -28.6484,
+      "long": 153.618,
+      "region": "Australia",
+      "logo": "bay_rollers_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Deathrow Dames",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24092
+        }
+      ]
+    },
+    {
+      "name": "Blue Mountains Roller Derby League",
+      "country": "Australia",
+      "city": "Katoomba",
+      "lat": -33.7138,
+      "long": 150.312,
+      "region": "Australia",
+      "logo": "blue_mountains_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "BMRDL: Brawling Banshees",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 32719
+        },
+        {
+          "name": "BMRDL: Gross Valley",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 32720
+        },
+        {
+          "name": "Free Sisters",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25513
+        }
+      ]
+    },
+    {
+      "name": "Brisbane City Rollers",
+      "country": "Australia",
+      "city": "Ipswich",
+      "lat": -27.6161,
+      "long": 152.761,
+      "region": "Australia",
+      "logo": "brisbane_city_rollers.jpg",
+      "teams": [
+        {
+          "name": "BCR: Banshees",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 75294
+        },
+        {
+          "name": "BCR: Violet Femmes",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 75293
+        },
+        {
+          "name": "BCR: Rahmones",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 95941
+        },
+        {
+          "name": "BCR: Nasty Nancies",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25002
+        },
+        {
+          "name": "Punk Blockers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24520
+        }
+      ]
+    },
+    {
+      "name": "Broken Hill Roller Derby League",
+      "country": "Australia",
+      "city": "Broken Hill",
+      "lat": -31.965,
+      "long": 141.451,
+      "region": "Australia",
+      "logo": "broken_hill_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "Lead Dolls",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 55272
+        }
+      ]
+    },
+    {
+      "name": "Bunbury Roller Derby",
+      "country": "Australia",
+      "city": "Bunbury",
+      "lat": -33.3268,
+      "long": 115.637,
+      "region": "Australia",
+      "logo": "bunbury_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "BRD: Zombetties",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 33407
+        },
+        {
+          "name": "BRD: Rockabullies",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 33406
+        },
+        {
+          "name": "Brawlstars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24962
+        }
+      ]
+    },
+    {
+      "name": "Bundaberg City Rollers",
+      "country": "Australia",
+      "city": "Bundaberg",
+      "lat": -24.8654,
+      "long": 152.352,
+      "region": "Australia",
+      "logo": "bundaberg_city_rollers.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 37064
+        }
+      ]
+    },
+    {
+      "name": "Cairns Derby Dolls",
+      "country": "Australia",
+      "city": "Cairns",
+      "lat": -16.9207,
+      "long": 145.772,
+      "region": "Australia",
+      "logo": "cairns_derby_dolls.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 30806
+        }
+      ]
+    },
+    {
+      "name": "Canberra Roller Derby League",
+      "country": "Australia",
+      "city": "Canberra",
+      "lat": -35.2976,
+      "long": 149.101,
+      "region": "Australia",
+      "logo": "canberra_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "CRDL: Black 'n' Blue Belles",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 21628
+        },
+        {
+          "name": "CRDL: Red Bellied Black Hearts",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 21627
+        },
+        {
+          "name": "CRDL: Surly Griffins",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 21489
+        },
+        {
+          "name": "CRDL: Brindabelters",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 21488
+        },
+        {
+          "name": "CRDL: Vice City Betamax",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25526
+        },
+        {
+          "name": "CRDL: Capital Brawlers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25438
+        },
+        {
+          "name": "Vice City Rollers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 15669
+        }
+      ]
+    },
+    {
+      "name": "Cap Coast Derby Dolls Inc.",
+      "country": "Australia",
+      "city": "Rockhampton",
+      "lat": -23.3783,
+      "long": 150.513,
+      "region": "Australia",
+      "logo": "cap_coast_derby_dolls_inc..jpg",
+      "teams": [
+        {
+          "name": "Sirens",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 35304
+        }
+      ]
+    },
+    {
+      "name": "Central Highlands Derby Dolls",
+      "country": "Australia",
+      "city": "Emerald",
+      "lat": -23.5264,
+      "long": 148.162,
+      "region": "Australia",
+      "logo": "central_highlands_derby_dolls.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 64778
+        }
+      ]
+    },
+    {
+      "name": "Central West Roller Derby",
+      "country": "Australia",
+      "city": "Bathurst",
+      "lat": -33.4167,
+      "long": 149.58,
+      "region": "Australia",
+      "logo": "central_west_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Central West Alliance",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 72095
+        }
+      ]
+    },
+    {
+      "name": "Clarence Valley Roller Derby",
+      "country": "Australia",
+      "city": "Copmanhurst",
+      "lat": -29.586,
+      "long": 152.776,
+      "region": "Australia",
+      "logo": "clarence_valley_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "LochNess Lassies",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24544
+        }
+      ]
+    },
+    {
+      "name": "Coffs Coast Derby Dolls",
+      "country": "Australia",
+      "city": "Coffs Harbour",
+      "lat": -30.2963,
+      "long": 153.113,
+      "region": "Australia",
+      "logo": "coffs_coast_derby_dolls.jpg",
+      "teams": [
+        {
+          "name": "Daughters of Mayhem",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24541
+        }
+      ]
+    },
+    {
+      "name": "Convict City Roller Derby",
+      "country": "Australia",
+      "city": "Glenorchy",
+      "lat": -36.9094,
+      "long": 142.663,
+      "region": "Australia",
+      "logo": "convict_city_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "CCR: Deadly Nightslays",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25625
+        },
+        {
+          "name": "CCR: Femmes Brutale",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 30190
+        },
+        {
+          "name": "CCR: Convict City B",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 92837
+        },
+        {
+          "name": "Orange Thunder",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25113
+        }
+      ]
+    },
+    {
+      "name": "Darwin Rollergirls",
+      "country": "Australia",
+      "city": "Darwin",
+      "lat": -12.4605,
+      "long": 130.841,
+      "region": "Australia",
+      "logo": "darwin_rollergirls.jpg",
+      "teams": [
+        {
+          "name": "DRG: The Psyclones",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 77411
+        },
+        {
+          "name": "DRG: The Arafuries",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 77410
+        },
+        {
+          "name": "Darwin Revolution",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24532
+        }
+      ]
+    },
+    {
+      "name": "Devil State Derby League",
+      "country": "Australia",
+      "city": "Launceston",
+      "lat": -41.4341,
+      "long": 147.137,
+      "region": "Australia",
+      "logo": "devil_state_derby_league.jpg",
+      "teams": [
+        {
+          "name": "DSDL: Black Betties",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 67115
+        },
+        {
+          "name": "DSDL: The White Walkers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 64887
+        },
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25261
+        }
+      ]
+    },
+    {
+      "name": "Diamond Valley Roller Derby Club",
+      "country": "Australia",
+      "city": "Eltham",
+      "lat": -28.7596,
+      "long": 153.408,
+      "region": "Australia",
+      "logo": "diamond_valley_roller_derby_club.jpg",
+      "teams": [
+        {
+          "name": "The Valley of the Banshees",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 98435
+        },
+        {
+          "name": "Rough Cut Rogues",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 91852
+        },
+        {
+          "name": "Rough-Cut Rollers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 29513
+        }
+      ]
+    },
+    {
+      "name": "Dragon City Roller Derby",
+      "country": "Australia",
+      "city": "Bendigo",
+      "lat": -36.7589,
+      "long": 144.283,
+      "region": "Australia",
+      "logo": "dragon_city_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "DCRD: The Rolling Dead",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 74331
+        },
+        {
+          "name": "DCRD: Slamurais",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 74330
+        },
+        {
+          "name": "Chiko Rollers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 23410
+        }
+      ]
+    },
+    {
+      "name": "Dread Pirate Rollers",
+      "country": "Australia",
+      "city": "Perth",
+      "lat": -31.9528,
+      "long": 115.86,
+      "region": "Australia",
+      "logo": "dread_pirate_rollers.jpg",
+      "teams": [
+        {
+          "name": "DPR: Brute Squad",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 55549
+        },
+        {
+          "name": "DPR: Shrieking Eels",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 55550
+        },
+        {
+          "name": "The Inconceivables",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 36276
+        }
+      ]
+    },
+    {
+      "name": "East Coast Derby Dolls",
+      "country": "Australia",
+      "city": "Gold Coast",
+      "lat": -28.0024,
+      "long": 153.415,
+      "region": "Australia",
+      "logo": "east_coast_derby_dolls.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 62171
+        }
+      ]
+    },
+    {
+      "name": "Geelong Roller Derby League",
+      "country": "Australia",
+      "city": "Belmont",
+      "lat": -31.9435,
+      "long": 115.925,
+      "region": "Australia",
+      "logo": "geelong_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "GRDL: Atom Bombs",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 23415
+        },
+        {
+          "name": "GRDL: The Psychotics",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 23414
+        },
+        {
+          "name": "GRDL: Virgin Marys",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 29509
+        },
+        {
+          "name": "Bloody Marys",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 23413
+        }
+      ]
+    },
+    {
+      "name": "Gippsland Ranges Roller Derby",
+      "country": "Australia",
+      "city": "Latrobe",
+      "lat": -41.2348,
+      "long": 146.41,
+      "region": "Australia",
+      "logo": "gippsland_ranges_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Megahurtz",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 18710
+        }
+      ]
+    },
+    {
+      "name": "Gladstone Roller Derby",
+      "country": "Australia",
+      "city": "Gladstone",
+      "lat": -33.2683,
+      "long": 138.354,
+      "region": "Australia",
+      "logo": "gladstone_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "CQ Misfits",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 83656
+        },
+        {
+          "name": "Haul Stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25115
+        }
+      ]
+    },
+    {
+      "name": "Gold City Rollers",
+      "country": "Australia",
+      "city": "Kalgoorlie-Boulder",
+      "lat": -30.7465,
+      "long": 121.473,
+      "region": "Australia",
+      "logo": "gold_city_rollers.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25368
+        }
+      ]
+    },
+    {
+      "name": "Gold Coast Roller Derby",
+      "country": "Australia",
+      "city": "Gold Coast",
+      "lat": -28.0024,
+      "long": 153.415,
+      "region": "Australia",
+      "logo": "gold_coast_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Rising Scars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 15338
+        },
+        {
+          "name": "Sea Bombers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 11707
+        }
+      ]
+    },
+    {
+      "name": "Hawkesbury/Hills Area Roller Derby",
+      "country": "Australia",
+      "city": "Windsor",
+      "lat": -33.6056,
+      "long": 150.822,
+      "region": "Australia",
+      "logo": "hawkesbury_hills_area_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "CamoKazis",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 15665
+        }
+      ]
+    },
+    {
+      "name": "Hervey Bay Rollerz",
+      "country": "Australia",
+      "city": "Hervey Bay",
+      "lat": -25.2986,
+      "long": 152.853,
+      "region": "Australia",
+      "logo": "hervey_bay_rollerz.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 56004
+        }
+      ]
+    },
+    {
+      "name": "Inner West Roller Derby League",
+      "country": "Australia",
+      "city": "Sydney",
+      "lat": -33.7637,
+      "long": 150.924,
+      "region": "Australia",
+      "logo": "inner_west_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "IWRDL: The Bamshees",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 37854
+        },
+        {
+          "name": "The Skatecrashers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25533
+        }
+      ]
+    },
+    {
+      "name": "Light City Derby (Womens)",
+      "country": "Australia",
+      "city": "Adelaide",
+      "lat": -34.9282,
+      "long": 138.6,
+      "region": "Australia",
+      "logo": "light_city_derby_(womens).jpg",
+      "teams": [
+        {
+          "name": "Rockers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 69502
+        },
+        {
+          "name": "Hippies",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 69501
+        },
+        {
+          "name": "Sabres",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25374
+        }
+      ]
+    },
+    {
+      "name": "Mackay City Roller Maidens",
+      "country": "Australia",
+      "city": "Mackay",
+      "lat": -21.142,
+      "long": 149.187,
+      "region": "Australia",
+      "logo": "mackay_city_roller_maidens.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24983
+        }
+      ]
+    },
+    {
+      "name": "Maitland Roller Girls",
+      "country": "Australia",
+      "city": "Maitland",
+      "lat": -34.3746,
+      "long": 137.671,
+      "region": "Australia",
+      "logo": "maitland_roller_girls.jpg",
+      "teams": [
+        {
+          "name": "Junkyard Jerks",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 61384
+        }
+      ]
+    },
+    {
+      "name": "Malice Springs Roller Derby",
+      "country": "Australia",
+      "city": "Alice Springs",
+      "lat": -23.6984,
+      "long": 133.881,
+      "region": "Australia",
+      "logo": "malice_springs_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25137
+        }
+      ]
+    },
+    {
+      "name": "Margaret River Roller Derby",
+      "country": "Australia",
+      "city": "Margaret River",
+      "lat": -33.9532,
+      "long": 115.077,
+      "region": "Australia",
+      "logo": "margaret_river_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 41184
+        }
+      ]
+    },
+    {
+      "name": "Murder City Roller Girls",
+      "country": "Australia",
+      "city": "Adelaide",
+      "lat": -34.9282,
+      "long": 138.6,
+      "region": "Australia",
+      "logo": "murder_city_roller_girls.jpg",
+      "teams": [
+        {
+          "name": "HomiciDolls",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25124
+        }
+      ]
+    },
+    {
+      "name": "Murray River Derby Dames",
+      "country": "Australia",
+      "city": "Albury",
+      "lat": -36.0805,
+      "long": 146.916,
+      "region": "Australia",
+      "logo": "murray_river_derby_dames.jpg",
+      "teams": [
+        {
+          "name": "Murray Mayhems",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 29514
+        }
+      ]
+    },
+    {
+      "name": "Newcastle Roller Derby League",
+      "country": "Australia",
+      "city": "Hamilton",
+      "lat": -37.7436,
+      "long": 142.024,
+      "region": "Australia",
+      "logo": "newcastle_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "NRDL: Bogey Rollers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 29616
+        },
+        {
+          "name": "NRDL: Harbour Hellcats",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 15336
+        },
+        {
+          "name": "NRDL: Fort Smashleys",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 15337
+        },
+        {
+          "name": "Dockyard Dames",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 15335
+        }
+      ]
+    },
+    {
+      "name": "North East Roller Derby",
+      "country": "Australia",
+      "city": "Wangaratta",
+      "lat": -36.3563,
+      "long": 146.323,
+      "region": "Australia",
+      "logo": "north_east_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "North East Knockouts",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 53606
+        }
+      ]
+    },
+    {
+      "name": "North East Roller Derby",
+      "country": "Australia",
+      "city": "Wangaratta",
+      "lat": -36.3563,
+      "long": 146.323,
+      "region": "Australia",
+      "logo": "north_east_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "NERD KELLY'S",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 91848
+        }
+      ]
+    },
+    {
+      "name": "North West Roller Derby",
+      "country": "Australia",
+      "city": "Port Hedland",
+      "lat": -20.3112,
+      "long": 118.58,
+      "region": "Australia",
+      "logo": "north_west_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 85574
+        }
+      ]
+    },
+    {
+      "name": "Northern Rivers Roller Derby",
+      "country": "Australia",
+      "city": "Lismore",
+      "lat": -28.8078,
+      "long": 153.279,
+      "region": "Australia",
+      "logo": "northern_rivers_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "BattleStars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24542
+        }
+      ]
+    },
+    {
+      "name": "Paradise City Roller Derby",
+      "country": "Australia",
+      "city": "Gold Coast",
+      "lat": -28.0024,
+      "long": 153.415,
+      "region": "Australia",
+      "logo": "paradise_city_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 34098
+        }
+      ]
+    },
+    {
+      "name": "Perth Roller Derby",
+      "country": "Australia",
+      "city": "Perth",
+      "lat": -31.9528,
+      "long": 115.86,
+      "region": "Australia",
+      "logo": "perth_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "PRD: Rumble Bees",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 21379
+        },
+        {
+          "name": "West Coast Evils",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 21378
+        }
+      ]
+    },
+    {
+      "name": "Port Macquarie Roller Derby",
+      "country": "Australia",
+      "city": "Port Macquarie",
+      "lat": -31.43,
+      "long": 152.91,
+      "region": "Australia",
+      "logo": "port_macquarie_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Breakwall Brawlers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 37742
+        }
+      ]
+    },
+    {
+      "name": "Reef City Rollergirls",
+      "country": "Australia",
+      "city": "Cairns",
+      "lat": -16.9207,
+      "long": 145.772,
+      "region": "Australia",
+      "logo": "reef_city_rollergirls.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24951
+        }
+      ]
+    },
+    {
+      "name": "Rockabellas Roller Derby League",
+      "country": "Australia",
+      "city": "Gawler",
+      "lat": -34.6025,
+      "long": 138.749,
+      "region": "Australia",
+      "logo": "rockabellas_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 79246
+        }
+      ]
+    },
+    {
+      "name": "Rocky Roller Derby",
+      "country": "Australia",
+      "city": "Rockhampton",
+      "lat": -23.3783,
+      "long": 150.513,
+      "region": "Australia",
+      "logo": "rocky_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All Stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 32629
+        }
+      ]
+    },
+    {
+      "name": "Rosebud Rebels Roller Derby",
+      "country": "Australia",
+      "city": "Rosebud",
+      "lat": -38.3711,
+      "long": 144.91,
+      "region": "Australia",
+      "logo": "rosebud_rebels_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25609
+        }
+      ]
+    },
+    {
+      "name": "Rum City Derby Dolls",
+      "country": "Australia",
+      "city": "Bundaberg",
+      "lat": -24.8654,
+      "long": 152.352,
+      "region": "Australia",
+      "logo": "rum_city_derby_dolls.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 23425
+        }
+      ]
+    },
+    {
+      "name": "Sin City Rollers",
+      "country": "Australia",
+      "city": "Geraldton",
+      "lat": -28.7704,
+      "long": 114.615,
+      "region": "Australia",
+      "logo": "sin_city_rollers.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 85573
+        }
+      ]
+    },
+    {
+      "name": "South Island Sirens Roller Derby League",
+      "country": "Australia",
+      "city": "Hobart",
+      "lat": -42.8826,
+      "long": 147.328,
+      "region": "Australia",
+      "logo": "south_island_sirens_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "SIS: CutLasses",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 64876
+        },
+        {
+          "name": "Krakens",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 15327
+        }
+      ]
+    },
+    {
+      "name": "South Sea Roller Derby",
+      "country": "Australia",
+      "city": "Melbourne",
+      "lat": -37.8143,
+      "long": 144.963,
+      "region": "Australia",
+      "logo": "south_sea_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "SSRD: The Cutthroat Charmers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24098
+        },
+        {
+          "name": "SSRD: Blackheart Breakers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 27714
+        },
+        {
+          "name": "SSRD: The Dolly Rogers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24099
+        },
+        {
+          "name": "SSRD: The Banshees",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24101
+        },
+        {
+          "name": "Sirens",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24097
+        }
+      ]
+    },
+    {
+      "name": "South Side Derby Dolls",
+      "country": "Australia",
+      "city": "Sydney",
+      "lat": -33.7637,
+      "long": 150.924,
+      "region": "Australia",
+      "logo": "south_side_derby_dolls.jpg",
+      "teams": [
+        {
+          "name": "The Wookies",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 73457
+        },
+        {
+          "name": "S2D2: The Empire",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 47425
+        },
+        {
+          "name": "The Force",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24502
+        }
+      ]
+    },
+    {
+      "name": "South West Sydney Rollers",
+      "country": "Australia",
+      "city": "Monto",
+      "lat": -24.864,
+      "long": 151.122,
+      "region": "Australia",
+      "logo": "south_west_sydney_rollers.jpg",
+      "teams": [
+        {
+          "name": "All Scars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25051
+        }
+      ]
+    },
+    {
+      "name": "Swan City Derby Dames",
+      "country": "Australia",
+      "city": "Perth",
+      "lat": -31.9528,
+      "long": 115.86,
+      "region": "Australia",
+      "logo": "swan_city_derby_dames.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 64768
+        }
+      ]
+    },
+    {
+      "name": "Sydney Roller Derby League",
+      "country": "Australia",
+      "city": "Sydney",
+      "lat": -33.7637,
+      "long": 150.924,
+      "region": "Australia",
+      "logo": "sydney_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "SRDL Mash-up",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 53710
+        },
+        {
+          "name": "SRDL: Mercenaries",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 93576
+        },
+        {
+          "name": "SRDL: Snipers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25524
+        },
+        {
+          "name": "The Assassins",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 7583
+        }
+      ]
+    },
+    {
+      "name": "Tableland Roller Derby",
+      "country": "Australia",
+      "city": "Mareeba",
+      "lat": -16.9916,
+      "long": 145.423,
+      "region": "Australia",
+      "logo": "tableland_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 28214
+        }
+      ]
+    },
+    {
+      "name": "Tamworth Roller Derby League",
+      "country": "Australia",
+      "city": "Tamworth",
+      "lat": -31.0901,
+      "long": 150.929,
+      "region": "Australia",
+      "logo": "tamworth_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 41327
+        }
+      ]
+    },
+    {
+      "name": "Team Regional Victoria",
+      "country": "Australia",
+      "city": "Port Victoria",
+      "lat": -34.4972,
+      "long": 137.487,
+      "region": "Australia",
+      "logo": "team_regional_victoria.jpg",
+      "teams": [
+        {
+          "name": "The Rolling Matildas",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 63850
+        }
+      ]
+    },
+    {
+      "name": "Toowoomba City Rollers",
+      "country": "Australia",
+      "city": "Toowoomba",
+      "lat": -27.5611,
+      "long": 151.953,
+      "region": "Australia",
+      "logo": "toowoomba_city_rollers.jpg",
+      "teams": [
+        {
+          "name": "TCR: Range Renegades",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 15340
+        },
+        {
+          "name": "Range Renegades",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 15339
+        }
+      ]
+    },
+    {
+      "name": "Top Gun Rollers",
+      "country": "Australia",
+      "city": "North Isis",
+      "lat": -25.1894,
+      "long": 152.261,
+      "region": "Australia",
+      "logo": "top_gun_rollers.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 93088
+        }
+      ]
+    },
+    {
+      "name": "Towns Villains Roller Derby",
+      "country": "Australia",
+      "city": "Townsville",
+      "lat": -19.257,
+      "long": 146.824,
+      "region": "Australia",
+      "logo": "towns_villains_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "War Paint Saints",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 25143
+        },
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24536
+        }
+      ]
+    },
+    {
+      "name": "Tweed Valley Rollers",
+      "country": "Australia",
+      "city": "Tweed Heads",
+      "lat": -28.1818,
+      "long": 153.547,
+      "region": "Australia",
+      "logo": "tweed_valley_rollers.jpg",
+      "teams": [
+        {
+          "name": "TVR: Voodoo Dolls",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24204
+        },
+        {
+          "name": "TVR: Sugar Skulls",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24205
+        },
+        {
+          "name": "TVR: Valley Valkyries",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 63233
+        },
+        {
+          "name": "Valley Vixens",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24203
+        }
+      ]
+    },
+    {
+      "name": "United Brisbane Roller Derby",
+      "country": "Australia",
+      "city": "Brisbane",
+      "lat": -27.469,
+      "long": 153.023,
+      "region": "Australia",
+      "logo": "united_brisbane_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 47598
+        }
+      ]
+    },
+    {
+      "name": "University of Sydney Roller Derby League",
+      "country": "Australia",
+      "city": "Sydney",
+      "lat": -33.7637,
+      "long": 150.924,
+      "region": "Australia",
+      "logo": "university_of_sydney_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 37852
+        }
+      ]
+    },
+    {
+      "name": "Van Diemen Rollers",
+      "country": "Australia",
+      "city": "Launceston",
+      "lat": -41.4341,
+      "long": 147.137,
+      "region": "Australia",
+      "logo": "van_diemen_rollers.jpg",
+      "teams": [
+        {
+          "name": "VDR: Crooked Butchers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 29519
+        },
+        {
+          "name": "VDR: Swiss Army Wives",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 29518
+        },
+        {
+          "name": "All-stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 24096
+        }
+      ]
+    },
+    {
+      "name": "Varsity Derby League",
+      "country": "Australia",
+      "city": "Canberra",
+      "lat": -35.2976,
+      "long": 149.101,
+      "region": "Australia",
+      "logo": "varsity_derby_league.jpg",
+      "teams": [
+        {
+          "name": "VDL: Rogue Scholars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 49599
+        },
+        {
+          "name": "DisHonour Rollers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 23428
+        }
+      ]
+    },
+    {
+      "name": "Victorian Roller Derby League",
+      "country": "Australia",
+      "city": "Melbourne",
+      "lat": -37.8143,
+      "long": 144.963,
+      "region": "Australia",
+      "logo": "victorian_roller_derby_league.jpg",
+      "teams": [
+        {
+          "name": "VRDL: The Bees",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 11284
+        },
+        {
+          "name": "VRDL: Demons",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 108267
+        },
+        {
+          "name": "VRDL: Notorious V.I.Cs",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 58624
+        },
+        {
+          "name": "All Stars",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 6741
+        }
+      ]
+    },
+    {
+      "name": "Wagga Derby Dolls",
+      "country": "Australia",
+      "city": "Wagga Wagga",
+      "lat": -35.115,
+      "long": 147.368,
+      "region": "Australia",
+      "logo": "wagga_derby_dolls.jpg",
+      "teams": [
+        {
+          "name": "Murderous Crows",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 36670
+        }
+      ]
+    },
+    {
+      "name": "Western Australia Roller Derby",
+      "country": "Australia",
+      "city": "Perth",
+      "lat": -31.9528,
+      "long": 115.86,
+      "region": "Australia",
+      "logo": "western_australia_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "WARD: Atomic Sirens",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 71695
+        },
+        {
+          "name": "WARD: Sonic Doom",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 22154
+        },
+        {
+          "name": "WARD: WayWARDs",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 36275
+        },
+        {
+          "name": "WARDs of the Skate",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 16745
+        }
+      ]
+    },
+    {
+      "name": "Western Sydney Rollers",
+      "country": "Australia",
+      "city": "Penrith",
+      "lat": -33.7512,
+      "long": 150.694,
+      "region": "Australia",
+      "logo": "western_sydney_rollers.jpg",
+      "teams": [
+        {
+          "name": "WSR: The Black Heart Brawlers",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 63827
+        },
+        {
+          "name": "WSR: The B-52 Bombshells",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 63829
+        },
+        {
+          "name": "WSR: Riot Squad",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 63828
+        },
+        {
+          "name": "Boutlaws",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 23417
+        }
+      ]
+    },
+    {
+      "name": "Wollongong Illawarra Roller Derby",
+      "country": "Australia",
+      "city": "Wollongong",
+      "lat": -34.4244,
+      "long": 150.894,
+      "region": "Australia",
+      "logo": "wollongong_illawarra_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Steel City Derby Dolls",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 11281
+        }
+      ]
+    },
+    {
+      "name": "Yeppoon Roller Derby",
+      "country": "Australia",
+      "city": "Yeppoon",
+      "lat": -23.1349,
+      "long": 150.744,
+      "region": "Australia",
+      "logo": "yeppoon_roller_derby.jpg",
+      "teams": [
+        {
+          "name": "Yeppoon Thunder",
+          "ranking": null,
+          "ranking_date": null,
+          "fts_code": 96709
+        }
+      ]
+    }
+  ]
+}
