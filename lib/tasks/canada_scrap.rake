@@ -1,13 +1,13 @@
 require 'rest-client'
 
-namespace :lat_america_scrap do
-  desc "Scrap leagues in the region Latin America from flattrackstat"
+namespace :canada_scrap do
+  desc "Scrap leagues in the region Canada from flattrackstat"
 
   task scrap: :environment do
 
     # There are 5 pages on which we iterate
-    [0, 1, 2].each do |page_number|
-      url = "http://flattrackstats.com/teams/results/taxonomy%3A34%2C11%2C49?page=#{page_number}"
+    [0, 1].each do |page_number|
+      url = "http://flattrackstats.com/teams/results/taxonomy%3A29%2C11%2C49?page=#{page_number}"
       html_file = open(url).read.encode!('UTF-8', 'UTF-8', :invalid => :replace)
       html_doc = Nokogiri::HTML(html_file)
 
@@ -29,14 +29,9 @@ namespace :lat_america_scrap do
 
         logo = league_html_doc.search('.logo img').attribute('src').value
         location = league_html_doc.search('.large').text
-
+        location = location.sub(/, [A-Z]{2}, Canada/, "")
         # LOCATION WITH ALGOLIA
-        if location.include? "UK"
-          location = location.sub(/, UK/, "")
-          algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}", type: "city",  countries: ["gb"]}.to_json, {content_type: :json, accept: :json}))
-        else
-          algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}"}.to_json, {content_type: :json, accept: :json}))
-        end
+        algolia_location = JSON.parse((RestClient.post "https://places-dsn.algolia.net/1/places/query", {'query' => "#{location}", type: "city",  countries: ["ca"]}.to_json, {content_type: :json, accept: :json}))
         response = algolia_location["hits"]
         if algolia_location["nbHits"].positive? # If the location doesn't exist, the league won't be created
           response[0]["country"]["en"].nil? ? country = response[0]["country"]["default"] : country = response[0]["country"]["en"]
@@ -58,7 +53,7 @@ namespace :lat_america_scrap do
                               logo: path,
                               lat: latitude,
                               long: longitude,
-                              region: "Latin America")
+                              region: "Canada")
 
           if league.valid?
             league.save!
