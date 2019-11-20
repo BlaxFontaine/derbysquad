@@ -9,7 +9,7 @@ require 'json'
 
 League.destroy_all
 
-jsons = ['europe.json', 'latin_america.json']
+jsons = ['europe.json', 'latin_america.json', 'canada.json', 'usa.json', 'australia.json', 'nz.json', 'pacific.json']
 
 jsons.each do |json|
   serialized_input = File.read(json)
