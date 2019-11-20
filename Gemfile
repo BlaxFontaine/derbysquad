@@ -12,10 +12,12 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'rest-client'
 gem 'sassc-rails'
-gem 'simple_form'
+gem "simple_form", ">= 5.0.0"
 gem 'uglifier'
 gem 'webpacker'
 gem 'cloudinary', '~> 1.9.1'
+gem "loofah", ">= 2.3.1"
+gem "nokogiri", ">= 1.10.4"
 
 group :development do
   gem 'web-console', '>= 3.3.0'
