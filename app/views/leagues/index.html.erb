@@ -8,7 +8,8 @@
     data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
   ></div>
   <% @leagues.each do |league| %>
-    <%= image_tag league.logo %>
+    <%= cl_image_tag league.logo %>
+
     <h2><%= link_to league.name, league_path(league.id) %></h2>
     <p><%= league.city %>, <%= league.country %></p>
   <% end %>
