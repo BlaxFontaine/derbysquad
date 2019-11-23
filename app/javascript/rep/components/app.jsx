@@ -36,7 +36,7 @@ class App extends Component {
           selectLeague={this.selectLeague}
         />
         <div className="map-container">
-          <GoogleMapReact center={this.center()} defaultZoom={12}>
+          <GoogleMapReact center={this.center()} defaultZoom={5}>
             <Marker lat={this.state.selectedLeague.lat} lng={this.state.selectedLeague.lng} />
           </GoogleMapReact>
         </div>

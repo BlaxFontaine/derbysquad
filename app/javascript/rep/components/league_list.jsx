@@ -6,6 +6,7 @@ const LeagueList = (props) => {
     return props.leagues.map((league, id) => {
       return (
         <League
+          url="https://res.cloudinary.com/ddzuex19b/image/upload/v1574266941/"
           league={league}
           key={league.id}
           selected={league.name === props.selectedLeague.name}

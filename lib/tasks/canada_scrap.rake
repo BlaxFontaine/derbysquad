@@ -52,7 +52,7 @@ namespace :canada_scrap do
                               country: country,
                               logo: path,
                               lat: latitude,
-                              long: longitude,
+                              lng: longitude,
                               region: "Canada")
 
           if league.valid?
