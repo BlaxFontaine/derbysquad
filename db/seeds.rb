@@ -22,7 +22,7 @@ jsons.each do |json|
     new_league[:country] = league['country']
     new_league[:city] = league['city']
     new_league[:lat] = league['lat']
-    new_league[:long] = league['long']
+    new_league[:lng] = league['lng']
     new_league[:region] = league['region']
     new_league[:logo] = league['logo']
     League.create!(new_league)

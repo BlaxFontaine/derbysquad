@@ -7,7 +7,7 @@ const LeagueList = (props) => {
       return (
         <League
           league={league}
-          key={league.lat}
+          key={league.id}
           selected={league.name === props.selectedLeague.name}
           id={id}
           selectLeague={props.selectLeague}

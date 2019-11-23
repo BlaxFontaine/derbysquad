@@ -21,7 +21,7 @@ namespace :australia_save do
         country: league.country,
         city: league.city,
         lat: league.lat,
-        long: league.long,
+        lng: league.long,
         region: league.region,
         logo: league.logo,
         teams: output_teams
