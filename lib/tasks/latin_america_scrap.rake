@@ -57,7 +57,7 @@ namespace :lat_america_scrap do
                               country: country,
                               logo: path,
                               lat: latitude,
-                              long: longitude,
+                              lng: longitude,
                               region: "Latin America")
 
           if league.valid?

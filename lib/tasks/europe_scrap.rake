@@ -55,14 +55,14 @@ namespace :europe_scrap do
           logo_name = league_name.gsub(" ", "_").downcase
           data = RestClient.get(logo).body
           path = "#{logo_name}.jpg"
-          File.write(path, data, mode: "wb")
+          File.write("app/assets/images/#{path}", data, mode: "wb")
           # From there, we create a new league
           league = League.new(name: league_name,
                               city: city,
                               country: country,
                               logo: path,
                               lat: latitude,
-                              long: longitude,
+                              lng: longitude,
                               region: "Europe")
 
           if league.valid?

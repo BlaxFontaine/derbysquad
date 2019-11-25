@@ -52,7 +52,7 @@ namespace :pacific_scrap do
                               country: country,
                               logo: path,
                               lat: latitude,
-                              long: longitude,
+                              lng: longitude,
                               region: "Pacific")
 
           if league.valid?

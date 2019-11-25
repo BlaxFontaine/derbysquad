@@ -41,7 +41,7 @@ body {
 }
 
 .card {
-  height: 230px;
+  height: 120px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.6);
   background-size: cover !important;
   background-position: center;
@@ -51,13 +51,12 @@ body {
     border: 10px solid red;
   }
 }
-.card-user {
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  width: 40px;
-  border-radius: 50%;
+
+.card img {
+  height: 100%;
+  width: 120px;
 }
+
 .card-category {
   position: absolute;
   top: 10px;
