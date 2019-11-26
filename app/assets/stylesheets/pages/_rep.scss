@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: black;
 }
 
 #root {
@@ -8,7 +8,7 @@ body {
   width: 100%;
 }
 
-#root > div {
+#root > div > .content {
   margin-top: 20px;
   display: flex;
 }

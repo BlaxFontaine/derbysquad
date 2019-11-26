@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def home
-    @leagues = League.all
+    @leagues = League.where(region: "Australia")
   end
 end

@@ -4,6 +4,7 @@ import leagues from '../index.jsx'
 
 import LeagueList from './league_list';
 import Marker from './marker';
+import Navbar from './navbar';
 
 
 class App extends Component {
@@ -30,15 +31,18 @@ class App extends Component {
   render() {
     return (
       <div>
-        <LeagueList
-          leagues={this.state.leagues}
-          selectedLeague={this.state.selectedLeague}
-          selectLeague={this.selectLeague}
-        />
-        <div className="map-container">
-          <GoogleMapReact center={this.center()} defaultZoom={5}>
-            <Marker lat={this.state.selectedLeague.lat} lng={this.state.selectedLeague.lng} />
-          </GoogleMapReact>
+        <Navbar/>
+        <div className="content">
+          <LeagueList
+            leagues={this.state.leagues}
+            selectedLeague={this.state.selectedLeague}
+            selectLeague={this.selectLeague}
+          />
+          <div className="map-container">
+            <GoogleMapReact center={this.center()} defaultZoom={5}>
+              <Marker lat={this.state.selectedLeague.lat} lng={this.state.selectedLeague.lng} />
+            </GoogleMapReact>
+          </div>
         </div>
       </div>
     );
