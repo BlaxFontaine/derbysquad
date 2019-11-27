@@ -40,6 +40,9 @@ class App extends Component {
           />
           <div className="map-container">
             <GoogleMapReact center={this.center()} defaultZoom={5}>
+              {this.state.leagues.map(league => (
+                <Marker lat={league.lat} lng={league.lng} key={league.id}/>
+              ))}
               <Marker lat={this.state.selectedLeague.lat} lng={this.state.selectedLeague.lng} />
             </GoogleMapReact>
           </div>

@@ -12,7 +12,6 @@ class League extends Component {
           <img src={this.props.url.concat(this.props.league.logo)} />
           <div className="card-product-infos">
             <h2>{this.props.league.name}</h2>
-
             <p>{this.props.league.city}, {this.props.league.country}</p>
           </div>
           <a className="card-link" href="#" onClick={this.handleClick}></a>
