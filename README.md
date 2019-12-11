@@ -1,1 +1,10 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+# DERBYSQUAD
+
+Derby match is an app displaying all roller derby leagues in the world.
+
+## Tech
+**Back-end**: Ruby on rails, PostGreSQL.
+
+**Front-end**: React, HTML/CSS/JS, Bootstrap 4.
+
+**Devops**: Git, Github, Cloudinary.
