@@ -43,7 +43,7 @@ class App extends Component {
               {this.state.leagues.map(league => (
                 <Marker lat={league.lat} lng={league.lng} key={league.id}/>
               ))}
-              <Marker lat={this.state.selectedLeague.lat} lng={this.state.selectedLeague.lng} />
+              <Marker lat={this.state.selectedLeague.lat} lng={this.state.selectedLeague.lng} className="marker-active" />
             </GoogleMapReact>
           </div>
         </div>
