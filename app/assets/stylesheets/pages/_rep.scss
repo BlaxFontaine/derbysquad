@@ -48,7 +48,7 @@ body {
   color: white;
   position: relative;
   &.active {
-    border: 10px solid red;
+    box-shadow: 0 0 3px 3px #34d8eb;
   }
 }
 
