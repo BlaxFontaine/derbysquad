@@ -52,7 +52,7 @@ namespace :usa_scrap do
                               country: country,
                               logo: path,
                               lat: latitude,
-                              long: longitude,
+                              lng: longitude,
                               region: "USA")
 
           if league.valid?
